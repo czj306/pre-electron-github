@@ -2,7 +2,7 @@
  * @Author: czj
  * @Date: 2021-05-08 11:32:25
  * @LastEditors: czj
- * @LastEditTime: 2021-05-08 15:33:04
+ * @LastEditTime: 2021-05-08 17:42:47
  * @Description:
 -->
 <template>
@@ -40,5 +40,9 @@ export default {
 * {
   padding: 0;
   margin: 0;
+}
+.tabs .tab {
+  line-height: 22px !important;
+  padding-top: 11px !important;
 }
 </style>
