@@ -2,7 +2,7 @@
  * @Author: czj
  * @Date: 2021-05-08 14:21:47
  * @LastEditors: czj
- * @LastEditTime: 2021-05-08 14:34:06
+ * @LastEditTime: 2021-05-08 16:19:54
  * @Description:
 -->
 <template functional>
@@ -22,6 +22,7 @@
 <script>
 import { ref } from 'vue'
 import { api } from "@/utils/index.js"
+
 export default {
   name: "Hub",
   setup() {
