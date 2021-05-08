@@ -2,7 +2,7 @@
  * @Author: czj
  * @Date: 2021-05-08 14:21:47
  * @LastEditors: czj
- * @LastEditTime: 2021-05-08 19:10:13
+ * @LastEditTime: 2021-05-08 19:12:19
  * @Description:
 -->
 <template functional>
@@ -16,7 +16,7 @@
   <ul class="collection row">
     <li class="collection-item col m6 s6" v-for="(item, index) in repos" :key="index">
       <!-- <i class="material-icons circle">aspect_ratio</i> -->
-      <div  class="secondary-content">
+      <div>
 
         <span class="title">
           {{item.full_name}}
