@@ -2,7 +2,7 @@
  * @Author: czj
  * @Date: 2021-05-08 13:35:19
  * @LastEditors: czj
- * @LastEditTime: 2021-05-08 17:44:06
+ * @LastEditTime: 2021-05-08 19:09:34
  * @Description:
 -->
 <template functional>
@@ -14,7 +14,7 @@
     </div>
   </nav>
   <div class="row">
-    <div class="col12 s12 m12">
+    <div class="col s12 m12">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
           <span class="card-title avatar">
@@ -26,44 +26,44 @@
         <div class="card-action">
           <div class="nav-content">
             <ul class="tabs tabs-transparent">
-              <li class="tab">
+              <li class="tab center">
                 <a class="grey-text text-lighten-4">
-                  <span>
-                    repos
-                  </span>
-                  <span class="new badge red" data-badge-caption="">{{
+                  <span class="badge-w red" data-badge-caption="">{{
                     person.public_repos
                   }}</span>
+                  <div>
+                    repos
+                  </div>
                 </a>
               </li>
-              <li class="tab">
+              <li class="tab center">
                 <a class="grey-text text-lighten-4">
-                  <span>
-                    gists
-                  </span>
-                  <span class="new badge red" data-badge-caption="">{{
+                  <span class="badge-w red" data-badge-caption="">{{
                     person.public_gists
                   }}</span>
+                  <div>
+                    gists
+                  </div>
                 </a>
               </li>
-              <li class="tab">
+              <li class="tab center">
                 <a class="grey-text text-lighten-4">
-                  <span>
-                    followers
-                  </span>
-                  <span class="new badge red" data-badge-caption="">{{
+                  <span class="badge-w red" data-badge-caption="">{{
                     person.followers
                   }}</span>
+                  <div>
+                    followers
+                  </div>
                 </a>
               </li>
-              <li class="tab">
+              <li class="tab center">
                 <a class="grey-text text-lighten-4">
-                  <span>
-                    following
-                  </span>
-                  <span class="new badge red" data-badge-caption="">{{
+                  <span class="badge-w red" data-badge-caption="">{{
                     person.following
                   }}</span>
+                  <div>
+                    following
+                  </div>
                 </a>
               </li>
             </ul>
@@ -94,5 +94,11 @@ export default {
 <style>
   .img-height {
     height: 112px;
+  }
+
+  .badge-w {
+    width: 2rem;
+    display: block;
+    margin: auto;
   }
 </style>
